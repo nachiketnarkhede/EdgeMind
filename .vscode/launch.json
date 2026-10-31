@@ -1,0 +1,15 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "venus",
+      "request": "launch",
+      "name": "Run EdgeMind",
+      "program": "${workspaceFolder}/riscv/assembly/edge_classifier_core.S",
+      "stopOnEntry": true,
+      "stopAtBreakpoints": true,
+      "openViews": []
+    }
+  ]
+}
